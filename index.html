@@ -12,10 +12,36 @@
 
 <body>
   <div class="app">
-    <h1>Dribble App</h1>
-    <div class="main-container">
 
+    <div class="nav-bar">
+      <div class="search-container">
+        <input class="search-input" type="text" placeholder="Search ..." />
+        <img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png">
+      </div>
+      <div class="nav-user-menu">
+        <div class="user-avatar"> N </div>
+        <h1>Nancy <span>Kim</span></h1>
+        <img class="down-arrow" src="https://cdn3.iconfinder.com/data/icons/arrows-149/512/directional-chevron-down-512.png" />
+      </div>
     </div>
+    <div class="side-nav">
+      <img class="side-nav-image" src="./img/heart-icon.png" />
+      <a href="#">Schedule</a>
+      <a href="#">Workouts</a>
+      <a href="#">Exercises</a>
+      <a href="#">Meals</a>
+      <a href="#">Programs</a>
+      <a href="#">Messages</a>
+      <a href="#">Profile</a>
+    </div>
+    <main class="main-container">
+      <div class="schedule-container"></div>
+      <aside class="aside-container">
+        <div class="monthly-calendar"></div>
+        <div class="calendar-event-list"></div>
+      </aside>
+    </main>
+  </div>
   </div>
   <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
 </body>
